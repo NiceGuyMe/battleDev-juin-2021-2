@@ -5,12 +5,12 @@ var newBouton = ""
 // to add button in "bouton"
 const addBouton = () => {
     while (true) {
-        newBouton = prompt(" saisir le nom d'un bouton: ");
+        newBouton = prompt(" enter the name of a button: ");
         if (!bouton[newBouton]) {
             bouton[newBouton] = 1;
         } else
             bouton[newBouton]++;
-        let choix = +prompt(" voulez vous saisir le nom d'un autre bouton ? (oui=1/non=2) ")
+        let choix = +prompt(" Do you want to enter the name of another button? (yes=1/no=2) ")
         if (choix == 1) {
             nombreDeBouton += 1
         } else {
@@ -27,12 +27,12 @@ const show = () => {
     for (let i = 0; i < newtab.length; i++) {
         if (newtab[i][1] == 2) {
             console.log("--------------------------------------------");
-            console.log(`le nombre total de bouton est : ${nombreDeBouton}`);
+            console.log(`the total number of buttons is: ${nombreDeBouton}`);
             console.log("--------------------------------------------");
-            console.log(`la repartition des bouton est : `);
+            console.log(`the button distribution is: `);
             console.log(bouton);
             console.log("--------------------------------------------");
-            console.log(`le seule bouton qui revient deux fois est :${newtab[i][0]}`);
+            console.log(`the only button that comes back twice is :${newtab[i][0]}`);
             console.log("--------------------------------------------");
         }
     }

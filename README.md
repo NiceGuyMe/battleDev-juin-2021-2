@@ -1,4 +1,4 @@
-# battleDev-juin-2021-2
+# battleDev-june-2021-2
 
 3, 2, 1... take off!
 

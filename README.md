@@ -35,3 +35,10 @@ Your program should return:
 boosters
 
 In effect : boostersis the only button present exactly twice. 
+
+# How to run this code? 
+
+to run the code you need to :
+- Download and install nodeJS on your pc
+- Do an nmp install to install the necessary tools
+- Run node rocketlaunch.js on terminal
